@@ -1,5 +1,7 @@
 # pythoncompiler-server
-Server for the iOS "python compiler" for my TEJ4M culminating. It's not 100% complete as I was in the middle of writing in the file fetcher when I had to submit, which actually might be a blessing in disguise because now you get the chance to finish it for yourself :)
+Server for the iOS "python compiler" for my TEJ4M culminating.
+
+It's not 100% complete as I was in the middle of writing in the file fetcher when I had to submit, which actually might be a blessing in disguise because now you get the chance to finish it for yourself :)
 
 <h2>Setup</h2>
 <h3>Installation</h3>
