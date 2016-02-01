@@ -1,0 +1,22 @@
+{
+    "name": "culminating-server",
+    "version": "1.0.2",
+    "description": "Webserver for our computer engineering culminating",
+    "author": "Edwin Finch <edwin@lignite.io>",
+    "contributors": [
+        {
+            "name": "Edwin Finch",
+            "email": "edwin@lignite.io"
+        },
+        {
+            "name": "Same Zhang",
+            "email": "zzq1015@gmail.com"
+        }
+    ],
+    "private": true,
+    "dependencies": {
+        "python-shell": "*",
+        "mongojs":"*",
+        "kerberos":"*"
+    }
+}

@@ -1,0 +1,2 @@
+print "fuck"
+print "hi"

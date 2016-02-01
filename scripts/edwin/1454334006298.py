@@ -1,0 +1,1 @@
+print "hey"*3
