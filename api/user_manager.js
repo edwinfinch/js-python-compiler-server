@@ -2,6 +2,7 @@
 var mongo = require('mongojs');
 var database = mongo("culminating", ["users"]);
 
+//Find the requested user through mongodb
 var findUser = function(userInfo, callback){
     database.users.find(userInfo, function(error, docs){
         if(error){
@@ -13,6 +14,7 @@ var findUser = function(userInfo, callback){
     });
 }
 
+//Insert a new user
 var insertUser = function(data, callback){
     database.users.insert(data, function(error, docs){
         if(error){
@@ -24,6 +26,7 @@ var insertUser = function(data, callback){
     });
 }
 
+//Export those functions for access outside of this module
 module.exports = {
     findUser: findUser,
     insertUser: insertUser
