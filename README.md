@@ -23,6 +23,8 @@ Setting up the server is relatively easy! Just copy all of the contents of this 
 
 Run `mkdir scripts` from within the server folder you've imported this repository into, this is where scripts are inputted into. If you don't do this, you may be presented with EONENT or other file access errors.
 
+You might also want to run `npm install` as the node_modules folder probably will be outdated by the time you run the project.
+
 <h2>Running</h2>
 Make sure your node script is not running in root. Give it proper permissions, and run `nodejs server.js`. You should see a confirmation: `Culminating server running on port 5000!`
 
